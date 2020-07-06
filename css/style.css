@@ -1,22 +1,67 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: serif;
-    height: 100%;
+.container{
+    margin-bottom: 100px;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6{
-    margin: 0 0 15px;
-    font-weight: 700;
+.orange-bg{
+    background-color: #FEEAE9;
+    border-radius: 10px;
 }
-/* Change the white to any color ;) */
-input:-webkit-autofill,
-input:-webkit-autofill:hover, 
-input:-webkit-autofill:focus, 
-input:-webkit-autofill:active  {
-    -webkit-box-shadow: 0 0 0 100px white inset !important;
+.carousel-item{
+    padding: 20px 30px;
 }
+.price{
+    color: #ff136f;
+    font-weight: bold;
+}
+.buy-now{
+    background-image:linear-gradient(to bottom, #ff5898 0%,#ff136f 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.category-one{
+    background-color: orange;
+}
+.category-two{
+    background-color: orchid;
+}
+.category-three{
+    background-color: blue;
+}
+.category-one, .category-two, .category-three{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.categories h1{
+    color: #fff;
+}
+.categories img{
+    width: 100px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgrey;
+    border-radius: 10px;
+}
+.card-footer{
+    border: none;
+    background-color: #fff;
+}
+#subscribe{
+    height: 300px;
+}
+#subscribe h6{
+    color: grey;
+}
+footer p{
+    font-size: 14px;
+    color: grey;
+}
+/*
+.buy-now::hover{
+    background-color: #fff;
+    border: 1px solid #ff136f;
+    color: #ff136f;
+}*/
